@@ -8,8 +8,15 @@
 }
 
 .cabecera {
-    padding: 50px;
-    text-align: center;
+    padding: 40px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cabecera img {
+    width: 50%;
+    height: 50%;
 }
 
 .menu {
