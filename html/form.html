@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Plomgas</title>
+    <link href="../css/index.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+  </head>
+ 
+<header class="cabecera">
+    <h3>Pagina Flex</h3>
+</header> 
+
+<nav class="menu">
+    <a href="../index.html" class="enlace">Inicio</a>
+    <a href="../html/masinfo.html" class="enlace">Más info</a>
+    <a href="" class="enlace" target="_parent" rel="noopener noreferrer">Contacto</a>
+</nav>
+
+<body class="bg-light">
+    
+<div class="container">
+  <main>
+    <div class="py-5 text-center" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;">
+    <h2>Formulario de contacto</h2>
+    </div>
+  
+      <div class="col-md-7 col-lg-8">
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="firstName" required>
+              <div class="invalid-feedback">
+                Se requiere un nombre válido.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="lastName" required>
+              <div class="invalid-feedback">
+                Se requiere un apellido válido.
+              </div>
+            </div> 
+
+            
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-muted"></span></label>
+              <input type="email" class="form-control" id="email" placeholder="abc@ejemplo.com" required>
+              <div class="invalid-feedback">
+                Por favor, ingresá un email válido.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="message" class="form-label">Mensaje <span class="text-muted"></span></label>
+              <textarea class="form-control" id="text" requiredname="comentarios" rows="10" cols="30" required></textarea>
+              <div class="invalid-feedback">
+                Por favor, ingresá tu mensaje.
+              </div>
+            </div>
+                          
+          </div>
+     
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar</button>
+        </form>
+      </div>
+  
+  </main>
+
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1"> &copy; 2021 DanCtln</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacidad</a></li>
+      <li class="list-inline-item"><a href="#">Términos y condiciones</a></li>
+      <li class="list-inline-item"><a href="#">Soporte</a></li>
+    </ul>
+    <ul class="list-unstyled">
+      <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/daniela.catalano.75839" target="_blank"><i class='bx bxl-facebook-circle' ></i></a></li>
+      <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/danctln/" target="_blank"><i class='bx bxl-instagram' ></i></a></li>
+    </ul>
+  </footer>
+</div>
+
+<script src="../js/form.js"></script>
+</body>
+</html>
